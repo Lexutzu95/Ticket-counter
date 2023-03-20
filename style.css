@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    hsl(120, 80%, 95%),
+    hsl(120, 73%, 75%),
+    hsl(120, 80%, 95%)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.main-container {
+  font-size: 1.2rem;
+  position: absolute;
+  max-width: 360px;
+  height: auto;
+  top: 50%;
+  border: 3px double darkolivegreen;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.counter-container {
+  font-size: 1.5rem;
+}
+
+#entry_btn {
+  background-color: hsl(0, 100%, 50%);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: hsl(34, 78%, 95%);
+  font-family: "arial black";
+  font-weight: bold;
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#entry_btn:active {
+  background: hsl(0, 100%, 27%);
+  border-radius: 6px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+
+#save_btn {
+  background-color: hsl(120, 100%, 25%);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: hsl(34, 78%, 95%);
+  font-family: "arial black";
+  font-weight: bold;
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#save_btn:active {
+  background: hsl(120, 100%, 20%);
+  border-radius: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#entries_el {
+  font-weight: bold;
+}

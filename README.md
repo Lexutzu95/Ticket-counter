@@ -1,0 +1,3 @@
+-Ticket counter
+-This is a little ticket counter app that can be used to count the tickets given to people who board public transport e.g: tram, bus etc
+-Technologies used: HTML, CSS and Javascript
